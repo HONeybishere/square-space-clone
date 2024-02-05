@@ -1,12 +1,23 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap'); */
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-Black.woff2);
+    src: url(./Poppins-BlackItalic.woff2);
+    src: url(./Poppins-Bold.woff2);
+    src: url(./Poppins-ExtraBold.woff2);
+    src: url(./Poppins-Light.woff2);
+    src: url(./Poppins-Medium.woff2);
+    src: url(./Poppins-Regular.woff2);
+    src: url(./Poppins-SemiBold.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family: poppins; */
+    font-family: poppins;
+    
 }
 *::selection{
     background-color: #7E3836;
@@ -46,11 +57,11 @@ html,body{
     display: inline-block;
     margin-right: 15px;
     font-weight: 400;
-    font-family: poppins;
+    
 }
 .nav-bar .nav-ops h3 a{
     color: #fff;
-    font-family: poppins;
+    
 }
 .login-button a:first-child{
     color: #fff;
@@ -68,7 +79,7 @@ html,body{
     font-weight: 500;
     background-color:#ffff;
     text-transform: uppercase;
-    font-family: poppins;
+    
 }
 .login-button a:nth-child(2){
     opacity: 0;
@@ -130,7 +141,7 @@ html,body{
     font-weight: 500;
     margin-bottom: -80px;
     opacity: 0;
-    font-family: poppins;
+    
 }
 
 .layer1 h1 span{
@@ -141,7 +152,7 @@ html,body{
     color: #fff;
     border-radius: 45px;
     margin: 0 30px;
-    font-family: poppins;
+    
 }
 .scroll-btn{
     color: #fff;
@@ -153,7 +164,7 @@ html,body{
 }
 .scroll-btn h3{
     font-weight: 200;
-    font-family: poppins;
+    
 }
 .icon{
     text-align: left;
@@ -163,5 +174,5 @@ html,body{
 .icon i{
     font-size: 1.8vw;
     color: #fff;
-    font-family: poppins;
+    
 }
